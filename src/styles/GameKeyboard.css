@@ -1,0 +1,44 @@
+.KeyBoardContainer {
+  margin-top: 30px;
+  width: 100%;
+  height: 270px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  height: 58px;
+  width: 45px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 6px 5px 0;
+  border: 0;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  background-color: #c5cbcf;
+}
+
+.speacial-buttons {
+  width: 70px;
+}
+
+.green {
+  background-color: green;
+  color: white;
+  transition-delay: 705ms;
+}
+
+.gray {
+  background-color: gray;
+  color: white;
+  transition-delay: 705ms;
+}
+
+.yellow {
+  background-color: yellow;
+  color: white;
+  transition-delay: 705ms;
+}

@@ -1,0 +1,58 @@
+.flexKeys {
+  display: flex;
+}
+
+.Tile {
+  height: 55px;
+  width: 55px;
+  background-color: white;
+  margin: 3px 3px 3px 3px;
+  border: solid #a4a5a6 1px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bolder;
+  line-height: 50px;
+}
+
+.currentTile {
+  border: solid black 2px;
+}
+
+.green {
+  background-color: green;
+  color: white;
+}
+
+.gray {
+  background-color: gray;
+  color: white;
+}
+
+.yellow {
+  background-color: yellow;
+  color: white;
+}
+
+.animate0 {
+  transition-delay: 100ms;
+}
+
+.animate1 {
+  transition-delay: 200ms;
+}
+
+.animate2 {
+  transition-delay: 300ms;
+}
+
+.animate3 {
+  transition-delay: 400ms;
+}
+
+.animate4 {
+  transition-delay: 500ms;
+}
+
+.currentStyle {
+  box-shadow: 0px 0px 0px 3px red inset;
+}

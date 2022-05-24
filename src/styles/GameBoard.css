@@ -1,0 +1,12 @@
+.gameBoardAlign {
+  height: 390px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.boardBox {
+  width: 330px;
+  height: 386px;
+  background-color: white;
+}
